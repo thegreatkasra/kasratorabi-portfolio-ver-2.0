@@ -1,0 +1,42 @@
+.nodejsLogoIcon {
+  position: absolute;
+  top: calc(50% - 9.85px);
+  left: calc(50% - 16px);
+  width: 32.1px;
+  height: 19.7px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div,
+.icon {
+  align-self: stretch;
+  position: relative;
+  height: 30.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  max-width: 100%;
+}
+.parent,
+.r1Icon {
+  position: absolute;
+}
+.r1Icon {
+  top: 5.6px;
+  left: 26.2px;
+  width: 19.7px;
+  height: 19.7px;
+  object-fit: cover;
+}
+.parent {
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 201.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-8);
+}

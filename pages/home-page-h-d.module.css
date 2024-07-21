@@ -1,0 +1,56 @@
+.d {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 361px);
+  width: 722px;
+  height: 917px;
+  overflow: hidden;
+}
+.fresh {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 632px;
+}
+.uiDesignerUx {
+  flex: 1;
+  position: relative;
+}
+.text1Parent,
+.text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 10px 0;
+  font-size: var(--font-size-109xl);
+}
+.text1Parent {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 960px);
+  width: 1922px;
+  flex-direction: column;
+  gap: 11px;
+}
+.homepagehd {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

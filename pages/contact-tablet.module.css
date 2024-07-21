@@ -1,0 +1,147 @@
+.bgIcon,
+.vectorIcon {
+  position: absolute;
+  top: -145px;
+  left: -150px;
+  width: 906px;
+  height: 290px;
+}
+.vectorIcon {
+  top: 7px;
+  left: 0;
+  width: 26px;
+  height: 35.5px;
+}
+.kasraTorabi,
+.logo {
+  position: absolute;
+  top: 11.8px;
+  left: 38px;
+}
+.logo {
+  top: -6px;
+  left: 50px;
+  width: 183px;
+  height: 50px;
+}
+.navTabletParent {
+  position: absolute;
+  top: 38px;
+  left: calc(50% - 512px);
+  width: 1024px;
+  height: 39px;
+}
+.contactBtnParent {
+  position: absolute;
+  top: 847px;
+  left: calc(50% - 159px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 38px;
+}
+.contactTabletChild {
+  position: absolute;
+  top: calc(50% + 27px);
+  left: calc(50% - 399px);
+  width: 797px;
+  height: 15px;
+  object-fit: contain;
+}
+.emailRequired {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  width: 400px;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--full-white);
+  box-sizing: border-box;
+  height: 45px;
+}
+.emailRequiredParent,
+.fullNameRequiredParent {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.fullNameRequiredParent {
+  width: 401px;
+}
+.frameInner {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--full-white);
+  box-sizing: border-box;
+  height: 45px;
+}
+.frameChild1,
+.message {
+  position: absolute;
+  left: 0;
+}
+.message {
+  top: 0;
+  display: inline-block;
+  width: 373px;
+}
+.frameChild1 {
+  top: 29px;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--full-white);
+  box-sizing: border-box;
+  width: 893px;
+  height: 85px;
+}
+.messageParent {
+  width: 893px;
+  position: relative;
+  height: 114px;
+}
+.send {
+  position: relative;
+  letter-spacing: 0.65em;
+}
+.form,
+.sendWrapper {
+  width: 893px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sendWrapper {
+  border-radius: var(--br-base);
+  background-color: var(--color-2);
+  height: 54px;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-169xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.form {
+  position: absolute;
+  top: 177px;
+  left: calc(50% - 447px);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 39px 92px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.contactTablet {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  height: 1366px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

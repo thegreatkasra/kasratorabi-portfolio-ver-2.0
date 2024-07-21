@@ -1,0 +1,137 @@
+.contactBtnParent {
+  position: absolute;
+  top: 56px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-59xl);
+}
+.frame,
+.frame2,
+.frame3,
+.frame4 {
+  position: absolute;
+  top: 304px;
+  left: 922px;
+  width: 318px;
+  height: 416px;
+  overflow: hidden;
+}
+.frame2,
+.frame3,
+.frame4 {
+  top: 0;
+  left: 0;
+  width: 1398px;
+  height: 1000px;
+}
+.frame2,
+.frame4 {
+  top: 138px;
+  left: 70px;
+  width: 481px;
+  height: 724px;
+}
+.frame2 {
+  top: 267px;
+  left: 0;
+  width: 1398px;
+  height: 1000px;
+}
+.o {
+  margin: 0;
+}
+.groupChild,
+.groupItem,
+.oR {
+  position: absolute;
+  opacity: 0.5;
+}
+.oR {
+  top: 366px;
+  left: 0;
+}
+.groupChild,
+.groupItem {
+  top: 446px;
+  background-color: var(--full-white);
+  border-right: 2px solid var(--full-white);
+  box-sizing: border-box;
+  width: 2px;
+  height: 324px;
+}
+.groupItem {
+  top: -1px;
+  height: 355px;
+}
+.group {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0.5px);
+  width: 0;
+  height: 769px;
+}
+.frame6,
+.oRParent {
+  position: absolute;
+  width: 15px;
+}
+.oRParent {
+  top: calc(50% - 385px);
+  left: calc(50% - 7.5px);
+  height: 769px;
+}
+.frame6 {
+  top: 382px;
+  left: 579px;
+  height: 770px;
+  overflow: hidden;
+}
+.bgChild {
+  width: 1353px;
+  position: relative;
+  height: 433px;
+}
+.bg,
+.frame1,
+.frame5,
+.frame7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1353px;
+}
+.bg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame1,
+.frame5,
+.frame7 {
+  height: 1534px;
+  overflow: hidden;
+}
+.frame1,
+.frame5 {
+  left: 84px;
+}
+.frame1 {
+  top: -255px;
+  left: 50px;
+  width: 1437px;
+}
+.contact {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

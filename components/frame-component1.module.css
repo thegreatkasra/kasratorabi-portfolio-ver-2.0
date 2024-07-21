@@ -1,0 +1,43 @@
+.nikafilm {
+  margin: 0;
+}
+.frameChild,
+.uberFood {
+  position: absolute;
+  top: 0;
+}
+.uberFood {
+  left: 0;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 533px;
+}
+.frameChild {
+  right: 0;
+  border-radius: var(--br-3xs);
+  width: 283px;
+  height: 204px;
+  object-fit: cover;
+}
+.uberFoodParent {
+  align-self: stretch;
+  position: relative;
+  height: 204px;
+}
+.projectsTabletInner {
+  position: absolute;
+  top: 661px;
+  left: calc(50% - 462px);
+  width: 924px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

@@ -1,0 +1,63 @@
+.bgIcon,
+.vectorIcon {
+  position: absolute;
+  top: -145px;
+  left: -150px;
+  width: 906px;
+  height: 290px;
+}
+.vectorIcon {
+  top: 7px;
+  left: 0;
+  width: 26px;
+  height: 35.5px;
+}
+.kasraTorabi {
+  top: 11.8px;
+  left: 38px;
+}
+.kasraTorabi,
+.logo,
+.navbar {
+  position: absolute;
+}
+.logo {
+  top: -6px;
+  left: 50px;
+  width: 183px;
+  height: 50px;
+}
+.navbar {
+  top: 38px;
+  left: calc(50% - 512px);
+  width: 1024px;
+  height: 39px;
+}
+.frameChild {
+  width: 115px;
+  position: relative;
+  height: 115px;
+  cursor: pointer;
+}
+.projectsTabletInner {
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+}
+.projectsTablet {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  height: 1366px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

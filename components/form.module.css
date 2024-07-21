@@ -1,0 +1,56 @@
+.emailRequired,
+.frameChild {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  border-radius: var(--br-xs);
+  border: 2px solid var(--full-white);
+  box-sizing: border-box;
+  height: 45px;
+}
+.emailRequiredParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rectangleDiv {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 2px solid var(--full-white);
+  box-sizing: border-box;
+  height: 213px;
+}
+.send {
+  position: relative;
+  letter-spacing: 0.65em;
+}
+.sendWrapper {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-169xl);
+  font-size: var(--font-size-5xl);
+}
+.form {
+  position: absolute;
+  top: 209px;
+  left: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-roboto-mono);
+}
