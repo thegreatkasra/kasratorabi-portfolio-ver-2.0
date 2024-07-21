@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
+import styled from "styled-components";
 import Property1h from "./property1h";
-import styles from "./header-top.module.css";
 
 export type HeaderTopType = {
   className?: string;
@@ -12,6 +12,43 @@ export type HeaderTopType = {
   onAboutUsTextClick?: () => void;
   onContactTextClick?: () => void;
 };
+
+const VectorIcon = styled.img`
+  width: 26px;
+  position: relative;
+  height: 35.5px;
+`;
+const KasraTorabi = styled.b`
+  position: relative;
+`;
+const Logo = styled.div`
+  flex: 1;
+  height: 49.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+`;
+const TopNavRoot = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+`;
 
 const HeaderTop: NextPage<HeaderTopType> = ({
   className = "",
@@ -34,11 +71,11 @@ const HeaderTop: NextPage<HeaderTopType> = ({
   }, [router]);
 
   return (
-    <div className={[styles.topNav, className].join(" ")}>
-      <div className={styles.logo}>
-        <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-        <b className={styles.kasraTorabi}>Kasra Torabi</b>
-      </div>
+    <TopNavRoot className={className}>
+      <Logo>
+        <VectorIcon alt="" src="/vector.svg" />
+        <KasraTorabi>Kasra Torabi</KasraTorabi>
+      </Logo>
       <Property1h
         property1hWidth="1431px"
         property1hHeight="89px"
@@ -49,7 +86,7 @@ const HeaderTop: NextPage<HeaderTopType> = ({
         onProjectsTextClick1={onProjectsTextClick1}
         onAboutUsTextClick1={onAboutUsTextClick1}
       />
-    </div>
+    </TopNavRoot>
   );
 };
 

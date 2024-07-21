@@ -1,16 +1,16 @@
 import type { NextPage } from "next";
-import styles from "./kasra-torabi.module.css";
+import styled from "styled-components";
 
 export type KasraTorabiType = {
   className?: string;
 };
 
+const KasraTorabiRoot = styled.div`
+  position: relative;
+`;
+
 const KasraTorabi: NextPage<KasraTorabiType> = ({ className = "" }) => {
-  return (
-    <div className={[styles.kasraTorabi, className].join(" ")}>
-      Kasra Torabi
-    </div>
-  );
+  return <KasraTorabiRoot className={className}>Kasra Torabi</KasraTorabiRoot>;
 };
 
 export default KasraTorabi;

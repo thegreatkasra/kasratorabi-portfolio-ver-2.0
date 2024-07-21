@@ -1,8 +1,69 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
+import styled from "styled-components";
 import HeaderTop from "../components/header-top";
-import styles from "./projects-h-d.module.css";
+
+const BgIcon = styled.img`
+  width: 1353px;
+  position: relative;
+  height: 433px;
+`;
+const Bg = styled.div`
+  position: absolute;
+  top: -255px;
+  left: 134px;
+  width: 1353px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+const UberFood = styled.b`
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+`;
+const UberFoodParent = styled.div`
+  position: absolute;
+  top: 199px;
+  left: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+`;
+const FrameChild = styled.img`
+  width: 115px;
+  position: relative;
+  height: 115px;
+  cursor: pointer;
+`;
+const ProjectshdInner = styled.div`
+  position: absolute;
+  bottom: 101px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 21px var(--padding-61xl);
+`;
+const ProjectshdRoot = styled.div`
+  width: 100%;
+  position: relative;
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+`;
 
 const ProjectsHD: NextPage = () => {
   const router = useRouter();
@@ -20,28 +81,23 @@ const ProjectsHD: NextPage = () => {
   }, []);
 
   return (
-    <div className={styles.projectshd}>
-      <div className={styles.bg}>
-        <img className={styles.bgIcon} alt="" src="/bg.svg" />
-      </div>
+    <ProjectshdRoot>
+      <Bg>
+        <BgIcon alt="" src="/bg.svg" />
+      </Bg>
       <HeaderTop
         onAboutUsTextClick={onAboutUsTextClick}
         onContactTextClick={onContactTextClick}
       />
-      <div className={styles.uberFoodParent}>
-        <b className={styles.uberFood}>1.Uber Food</b>
-        <b className={styles.uberFood}>2.Fenty Beauty Redesign</b>
-        <b className={styles.uberFood}>3.NikaFilm</b>
-      </div>
-      <div className={styles.projectshdInner}>
-        <img
-          className={styles.frameChild}
-          alt=""
-          src="/frame-6.svg"
-          onClick={onFrameClick}
-        />
-      </div>
-    </div>
+      <UberFoodParent>
+        <UberFood>1.Uber Food</UberFood>
+        <UberFood>2.Fenty Beauty Redesign</UberFood>
+        <UberFood>3.NikaFilm</UberFood>
+      </UberFoodParent>
+      <ProjectshdInner>
+        <FrameChild alt="" src="/frame-6.svg" onClick={onFrameClick} />
+      </ProjectshdInner>
+    </ProjectshdRoot>
   );
 };
 

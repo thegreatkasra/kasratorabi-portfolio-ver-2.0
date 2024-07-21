@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
-import styles from "./contact-btn.module.css";
+import { type CSSProperties } from "react";
+import styled from "styled-components";
 
 export type ContactBtnType = {
   className?: string;
@@ -10,24 +10,39 @@ export type ContactBtnType = {
   contactBtnAlignSelf?: CSSProperties["alignSelf"];
 };
 
+const Telegram = styled.b`
+  position: relative;
+`;
+const ContactBtnRoot = styled.div<{
+  contactBtnAlignSelf?: CSSProperties["alignSelf"];
+}>`
+  border-radius: var(--br-28xl);
+  border: 2px solid var(--full-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-75xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto-mono);
+  align-self: ${(p) => p.contactBtnAlignSelf};
+`;
+
 const ContactBtn: NextPage<ContactBtnType> = ({
   className = "",
   telegram,
   contactBtnAlignSelf,
 }) => {
-  const contactBtnStyle: CSSProperties = useMemo(() => {
-    return {
-      alignSelf: contactBtnAlignSelf,
-    };
-  }, [contactBtnAlignSelf]);
-
   return (
-    <div
-      className={[styles.contactBtn, className].join(" ")}
-      style={contactBtnStyle}
+    <ContactBtnRoot
+      contactBtnAlignSelf={contactBtnAlignSelf}
+      className={className}
     >
-      <b className={styles.telegram}>{telegram}</b>
-    </div>
+      <Telegram>{telegram}</Telegram>
+    </ContactBtnRoot>
   );
 };
 
