@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import Property1H from "../components/property1-h";
+import Property1H1 from "../components/property1-h";
 import ProjectCards from "../components/project-cards";
-import FrameComponent from "../components/frame-component";
+import FrameComponent1 from "../components/frame-component1";
 import styles from "./projects-tablet.module.css";
 
 const ProjectsTablet: NextPage = () => {
@@ -14,7 +14,7 @@ const ProjectsTablet: NextPage = () => {
     <div className={styles.projectsTablet}>
       <img className={styles.bgIcon} alt="" src="/bg3.svg" />
       <div className={styles.navbar}>
-        <Property1H
+        <Property1H1
           property1HPosition="absolute"
           property1HTop="-1px"
           property1HLeft="253px"
@@ -38,7 +38,7 @@ const ProjectsTablet: NextPage = () => {
         rectangle3="/rectangle-31@2x.png"
         propTop="409px"
       />
-      <FrameComponent />
+      <FrameComponent1 />
     </div>
   );
 };

@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import styles from "./frame-component1.module.css";
 
-export type FrameComponentType = {
+export type FrameComponent1Type = {
   className?: string;
 };
 
-const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
+const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
   return (
     <div className={[styles.projectsTabletInner, className].join(" ")}>
       <div className={styles.uberFoodParent}>
@@ -18,4 +18,4 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
   );
 };
 
-export default FrameComponent;
+export default FrameComponent1;

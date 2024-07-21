@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Property1H from "../components/property1-h";
+import Property1H1 from "../components/property1-h";
 import styles from "./home-page-tablet.module.css";
 
 const HomePageTablet: NextPage = () => {
@@ -7,7 +7,7 @@ const HomePageTablet: NextPage = () => {
     <div className={styles.homepageTablet}>
       <img className={styles.bgIcon} alt="" src="/bg3.svg" />
       <div className={styles.navTabletParent}>
-        <Property1H
+        <Property1H1
           property1HPosition="absolute"
           property1HTop="-1px"
           property1HLeft="253px"

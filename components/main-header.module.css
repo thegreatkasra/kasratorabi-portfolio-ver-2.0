@@ -1,0 +1,15 @@
+.logoIcon,
+.top {
+  position: absolute;
+  top: 24px;
+  left: 83px;
+  width: 185px;
+  height: 49.5px;
+}
+.top {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 98px;
+  overflow: hidden;
+}

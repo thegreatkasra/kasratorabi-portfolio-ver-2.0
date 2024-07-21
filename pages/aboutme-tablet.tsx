@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Property1H from "../components/property1-h";
+import Property1H1 from "../components/property1-h";
 import styles from "./aboutme-tablet.module.css";
 
 const AboutmeTablet: NextPage = () => {
@@ -10,7 +10,7 @@ const AboutmeTablet: NextPage = () => {
         <img className={styles.img13061Icon} alt="" src="/img-1306-11@2x.png" />
       </div>
       <div className={styles.navTabletParent}>
-        <Property1H
+        <Property1H1
           property1HPosition="absolute"
           property1HTop="-1px"
           property1HLeft="253px"

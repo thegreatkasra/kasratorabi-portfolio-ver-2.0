@@ -1,0 +1,28 @@
+.componentChild,
+.componentItem {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 156px);
+  border-radius: var(--br-8xs);
+  width: 312px;
+  height: 149px;
+}
+.componentChild {
+  object-fit: cover;
+}
+.componentItem {
+  background: linear-gradient(0deg, rgba(6, 6, 6, 0.8), transparent);
+}
+.titleName {
+  position: absolute;
+  top: 115px;
+  left: calc(50% - 42px);
+}
+.rectangleParent {
+  width: 312px;
+  height: 149px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-roboto-mono);
+}

@@ -1,0 +1,82 @@
+.bgChild {
+  top: 73px;
+  filter: blur(39.6px);
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  width: 1440px;
+  height: 1024px;
+}
+.bg,
+.bgChild,
+.bgItem {
+  position: absolute;
+  left: 0;
+}
+.bgItem {
+  top: 0;
+  filter: blur(200px);
+  border-radius: 50%;
+  background-color: var(--color-goldenrod);
+  width: 1143px;
+  height: 237px;
+}
+.bg {
+  top: -73px;
+  width: 1440px;
+  height: 1097px;
+}
+.vectorIcon {
+  width: 26px;
+  height: 35.5px;
+}
+.kasraTorabi,
+.vectorIcon {
+  position: relative;
+}
+.logo,
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 185px;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.top {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.frameChild {
+  position: absolute;
+  bottom: 22px;
+  left: 80px;
+  width: 115px;
+  height: 115px;
+  cursor: pointer;
+}
+.contactusInner {
+  position: absolute;
+  top: 866px;
+  left: 0;
+  width: 1440px;
+  height: 158px;
+  overflow: hidden;
+}
+.contactus {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--full-white);
+  font-family: var(--font-lexend);
+}

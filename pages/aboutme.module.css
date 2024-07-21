@@ -1,0 +1,127 @@
+.bgChild {
+  top: 73px;
+  filter: blur(39.6px);
+  background: linear-gradient(151.5deg, #e35b0e, #5f0526);
+  width: 1440px;
+  height: 1024px;
+}
+.bg,
+.bgChild,
+.bgItem {
+  position: absolute;
+  left: 0;
+}
+.bgItem {
+  top: 0;
+  filter: blur(200px);
+  border-radius: 50%;
+  background-color: var(--color-goldenrod);
+  width: 1143px;
+  height: 237px;
+}
+.bg {
+  top: -73px;
+  width: 1440px;
+  height: 1097px;
+}
+.spliterIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 41px;
+  flex-shrink: 0;
+}
+.skils {
+  position: absolute;
+  top: 624px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.figma {
+  background: linear-gradient(
+    -89.67deg,
+    #ff7262,
+    #a259ff 36.5%,
+    #1abcfe 70%,
+    #0acf83
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.and {
+  color: var(--full-white);
+}
+.adobeXd {
+  color: #ff61f6;
+}
+.spline {
+  background: linear-gradient(
+    90deg,
+    #fec31d,
+    #3bffc5 33.33%,
+    #417fff 66.67%,
+    #fe3af3
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blender {
+  color: #f5792a;
+}
+.afterEffects {
+  color: #99f;
+}
+.imKasraTorabiAPassiona {
+  font-size: var(--font-size-5xl);
+}
+.hiImKasraContainer {
+  width: 832px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 344px;
+  flex-shrink: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild {
+  width: 390px;
+  position: relative;
+  height: 390px;
+}
+.containerParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 57px;
+}
+.aboutmeInner {
+  position: absolute;
+  top: 154px;
+  left: 80.5px;
+  width: 1275px;
+  height: 390px;
+}
+.aboutme {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--full-white);
+  font-family: var(--font-roboto-mono);
+}

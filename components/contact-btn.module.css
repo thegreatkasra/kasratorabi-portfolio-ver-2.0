@@ -1,0 +1,17 @@
+.telegram {
+  position: relative;
+}
+.contactBtn {
+  border-radius: var(--br-28xl);
+  border: 2px solid var(--full-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-75xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto-mono);
+}

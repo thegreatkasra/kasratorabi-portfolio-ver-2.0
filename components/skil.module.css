@@ -1,0 +1,89 @@
+.adobeXdLogoIcon {
+  position: absolute;
+  top: 20px;
+  left: 92px;
+  width: 71.7px;
+  height: 70px;
+  overflow: hidden;
+}
+.div {
+  width: 256px;
+  position: relative;
+  border-right: 2px solid var(--color-4);
+  box-sizing: border-box;
+  height: 110px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.r1Icon {
+  position: absolute;
+  top: 20px;
+  left: 93px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.g3013Icon,
+.g3054Icon,
+.layer1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.g3013Icon {
+  width: 45.84%;
+  right: 54.16%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.g3054Icon,
+.layer1 {
+  right: 0;
+}
+.g3054Icon {
+  width: 45.84%;
+  left: 54.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.layer1 {
+  width: 100%;
+  left: 0;
+}
+.css3AndHtml5LogosAndWordm {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 54px);
+  width: 108.2px;
+  height: 70px;
+  overflow: hidden;
+}
+.icon,
+.icon1 {
+  width: 256px;
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon1 {
+  object-fit: cover;
+}
+.applications,
+.skil2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skil2 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-mid) var(--padding-61xl);
+}

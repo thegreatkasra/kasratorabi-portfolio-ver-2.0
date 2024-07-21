@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Property1H from "../components/property1-h";
+import Property1H1 from "../components/property1-h";
 import ContactBtn from "../components/contact-btn";
 import styles from "./contact-tablet.module.css";
 
@@ -8,7 +8,7 @@ const ContactTablet: NextPage = () => {
     <div className={styles.contactTablet}>
       <img className={styles.bgIcon} alt="" src="/bg3.svg" />
       <div className={styles.navTabletParent}>
-        <Property1H
+        <Property1H1
           property1HPosition="absolute"
           property1HTop="-1px"
           property1HLeft="253px"
